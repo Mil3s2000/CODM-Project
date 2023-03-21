@@ -18,6 +18,15 @@ a {
     text-decoration: none;
 }
 
+
+.txt, .quoter, .footer, a {
+    font-size: 20px;
+}
+
+.links, .logo, .hero, .image {
+    flex: 1;
+}
+
 /*first*/
 
 .first {
@@ -27,16 +36,20 @@ a {
     
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.hero {
+    font-size: 30px;
+}
+
 .head {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    flex-basis: 1200px;
     margin-bottom: 50px;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
 }
 
 ul {
@@ -54,10 +67,6 @@ ul {
     margin-bottom: auto;
 }
 
-.links, .logo, .hero, .image {
-    flex: 1;
-}
-
 /*second*/
 .second {
     text-align: center;
@@ -72,31 +81,47 @@ ul {
     gap: 10px;
 }
 
+.info {
+    font-size: 36px;
+}
+
 /*third*/
 .third {
     display: flex;
     justify-content: center;
+    padding: 70px 0px 70px 0px;
 }
 .text {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 1000px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quoter {
     align-self: flex-end;
+    font-weight: 900;
 }
 
 /*fourth*/
 .fourth {
     display: flex;
     justify-content: center;
+    padding: 60px 0px 60px 0px;
 }
 
 .item {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 1200px;
+}
+
+.call, button {
+    font-size: 30px;
 }
 
 /*footer*/
