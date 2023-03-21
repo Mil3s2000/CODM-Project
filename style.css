@@ -2,14 +2,24 @@ body {
 }
 
 * {
-    border: 2px solid gold;
+    border: 2px solid rgb(51, 45, 45);
 }
+
+.maps {
+    width: 100px;
+    height: 100px;
+}
+
+.banner {
+    width: 200px;
+}
+
+/*first*/
 
 .first {
 
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     
 }
 
