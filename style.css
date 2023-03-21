@@ -6,12 +6,16 @@ body {
 }
 
 .maps {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .banner {
     width: 200px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*first*/
@@ -55,6 +59,53 @@ ul {
 }
 
 /*second*/
+.second {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+/*third*/
+.third {
+    display: flex;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quoter {
+    align-self: flex-end;
+}
+
+/*fourth*/
+.fourth {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+/*footer*/
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
