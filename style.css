@@ -5,6 +5,14 @@ body {
     border: 2px solid rgb(51, 45, 45);
 }
 
+img {
+    border-radius: 25px;
+}
+
+button, .item {
+    border-radius: 10px;
+}
+
 .maps {
     width: 250px;
     height: 200px;
@@ -131,8 +139,9 @@ ul {
 
 .item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1200px;
+    padding: 20px 0px 20px 0px;
 }
 
 .call, .buy {
