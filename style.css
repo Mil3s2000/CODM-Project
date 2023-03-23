@@ -1,4 +1,6 @@
 body {
+    color: white;
+    background-color: black;
 }
 
 * {
@@ -11,6 +13,7 @@ img {
 
 button, .item {
     border-radius: 10px;
+    border: 5px solid white;
 }
 
 .maps {
@@ -25,6 +28,7 @@ button, .item {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 
@@ -35,6 +39,18 @@ a {
 .links, .hero, .image {
     flex: 1;
 }
+
+/*COLOR*/
+span, .txt, .info, .quoter, .footer {
+    color: yellow;
+}
+
+button {
+    background-color: yellow;
+}
+
+
+
 
 /*first*/
 
@@ -72,7 +88,7 @@ ul {
     align-items: center;
 }
 
-.mode,.tags, button {
+.mode,.tags, button,span {
     font-size: 25px;
 }
 
@@ -84,10 +100,6 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-span {
-    font-size: 25px;
 }
 
 .image {
